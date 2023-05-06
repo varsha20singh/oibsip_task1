@@ -1,0 +1,152 @@
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 4px;
+    background-color: black;
+    
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+   
+  }
+  .navbar-brand{
+    color: white;
+  }
+
+.navbar-nav  li:hover{
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #504c4c;
+    height: 500px;
+    padding-top: 5px;
+    padding-bottom:30px ;
+    
+}
+.head{
+    width: 40%;
+    text-align: center;
+}
+.head h1{
+    color:#F24C4C ;
+    font-size: 80px;
+}
+.btn{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.btn:hover{
+    background-color: #CE5959;
+    border-color: #CE5959;
+    
+}
+.about{
+    background-color: #F24C4C;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    color: #F0F0F0;
+}
+.content{
+    padding-top: 20px;
+    width: 70%;
+}
+.services{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.services h1{
+    text-align: center;
+    color: #F24C4C;
+    text-shadow: 2px 2px 4px #f54d05;
+}
+.services p{
+    padding-top: 18px;
+    font-size: 18px;
+    
+}
+.btn-services{
+    background-color: #F24C4C;
+    border-radius: 20px;
+    border-color: #F24C4C;
+    color: white;
+    padding: 4px 22px 4px;
+}
+.box{
+    padding: 70px 70px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.service-content{
+    padding-top: 30px;
+    width: 60%;
+}
+.service-content h3{
+    color: #F24C4C;
+}
+
+
+.contact{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #000000;
+    color: white;
+}
+.icons{
+    padding: 30px 50px 30px;
+}
+.fa-brands{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.fa-brands:hover{
+   transform: scale(1.5);
+}
+.last{
+    font-size: 18px;
+}
+.last-block{
+    letter-spacing: 1.3px;
+}
+.last-block a{
+    color: grey;
+}
+.last-block a:hover{
+    color: white;
+   
+}
+hr{
+    text-align: center;
+    width: 80%;
+    margin:auto;
+}
+.last{
+    padding-top: 20px;
+}
